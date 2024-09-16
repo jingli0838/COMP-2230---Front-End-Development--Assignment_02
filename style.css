@@ -40,28 +40,34 @@ a{
 
 .image-container{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: center;
- 
-}
+    align-items: center;
+  }
 
 .image-container img{
-    display: block;
-    margin-bottom: 0.5em;
+    margin-left: 10px;
 }
 
 .image-container figcaption{
     color:rgb(102, 137, 233);
+    margin-left:2px;
+    text-align: center;
+}
+
+.image-container figure{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.image-container h3{
+    margin:20px;
 }
 
 .skill-container{
     display:flex;
-    justify-content: space-around;
     align-items: stretch;
     width: 400px;
     height: 250px;
-    width: 100%;
+    width:100%;
 }
 .skill-item{
     width: 100%;
@@ -69,7 +75,6 @@ a{
     background-color: rgb(229, 220, 206);
     text-align: center;
     padding: 20px;
-    border-left:5px double black;
     box-sizing: border-box
 }
 
