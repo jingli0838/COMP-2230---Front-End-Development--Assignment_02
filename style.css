@@ -8,11 +8,11 @@ h1,h2, h3{
     color: black;
     font-family: "Georgia", serif;
     font-weight: bold;
-   
+     
 }
 
 h1{
-    font-size: 28px;
+    font-size: 30px;
     text-align: center
     
 }
@@ -38,6 +38,10 @@ a{
     margin-right:200px;
 }
 
+.bio-text{
+    line-height: 1.5;
+}
+/*Apply Flexbox  to structure**/
 .image-container{
     display: flex;
     align-items: center;
@@ -66,16 +70,17 @@ a{
     display:flex;
     align-items: stretch;
     width: 400px;
-    height: 250px;
+    height: 300px;
     width:100%;
 }
 .skill-item{
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: rgb(229, 220, 206);
     text-align: center;
     padding: 20px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    line-height: 1.5;
 }
 
 .skill-item:first-child{
@@ -92,8 +97,22 @@ a{
 .experience-item{
     width: 100%;
     height: 130px;
-    background-color:default;
+    background-color:inherit;
     text-align: left;
     border-bottom:5px double black;
     box-sizing: border-box
 }
+
+/* Custom Fonts **/
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-style: normal;
+    font-weight: 400;
+}
+  
