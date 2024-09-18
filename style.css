@@ -57,9 +57,6 @@ a{
     margin-right:200px;
 }
 
-.bio-text{
-    line-height: 1.5;
-}
 /*Apply Flexbox  to structure**/
 .image-container{
     display: flex;
