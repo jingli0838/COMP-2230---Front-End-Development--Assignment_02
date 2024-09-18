@@ -17,6 +17,7 @@
     - **Font weight**: Normal
     - **Font style**: Normal
     - **Font color**: black
+
 ## Layout and Spacing
 - **Header**:
     - **Layout**: Flexbox with center alignment
@@ -37,6 +38,7 @@
     - **Background Color**: Inherit from parent
     - **Border**: 5px double black at the bottom
     - **Padding**: 10px bottom
+    
 - **Accessibility**:
     - **Contrast**: Ensured sufficient contrast between text and background for readability.
 
