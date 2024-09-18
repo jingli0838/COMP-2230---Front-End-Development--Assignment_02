@@ -101,7 +101,7 @@ a{
     height: auto;
     margin:0px;
     padding:20px;
-    gap: 20px;
+    gap: 40px;
     box-sizing: border-box
 }
 
@@ -254,6 +254,16 @@ a{
     .image-container img {
         display: none; 
     }
+
+    .skill-button {
+        display: inline-block; /* Ensure buttons are not hidden */
+        background-color: #000; /* Adjust background color if needed */
+        color: black; /* Adjust text color for readability */
+        border: 1px solid #000; /* Ensure borders are visible */
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
     footer {
         display: none;
     }
