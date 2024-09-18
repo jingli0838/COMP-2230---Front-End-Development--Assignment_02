@@ -12,31 +12,33 @@ body{
     background-size: cover; /* Ensures the background covers the entire area */
     color:black;
     font-family: "Arial", "Helvetica", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 0;
 }
 
-h1,h3{
+h1{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+    text-align: center  
+}
+h3{
     color: black;
     font-family: "Georgia", serif;
     font-weight: bold;  
-
 }
+
 h2{
     font-family: "Lora", "Georgia",serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 900;
     font-style: italic;
     border-bottom: 2px dashed black;
     width: 100%;
 
 }
-
-h1{
-    font-size: 28px;
-    text-align: center  
-}
-
 
 p,ul{
     font-size: 18px;
@@ -154,10 +156,6 @@ a{
     background-color: #f9f9f9;
 }
 
-.bold-text {
-    font-weight: bold;
-}
-
 .experience-container{
     display:flex;
     flex-direction: column;
@@ -178,17 +176,8 @@ a{
     padding-bottom: 10px;
 }
 
-/* Custom Fonts **/
-.roboto-black {
-    font-family: "Roboto", "Arial", sans-serif;;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 28px;
-  }
-
-  footer{
+footer{
     text-align: center;
-
   }
 
 
@@ -209,7 +198,7 @@ a{
  /* Styles for tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
     body{
-        font-size:20px;
+        font-size:14px;
         padding: 10px;
     }
     .image-container{
@@ -223,12 +212,8 @@ a{
     body {
         font-size: 22px; 
     }
-
-    .container {
-        width: 1200px; 
-        margin: 0 auto;
     }
-}
+
 
 /* Styles for printing */
 @media print {
